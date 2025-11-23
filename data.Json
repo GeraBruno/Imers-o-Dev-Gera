@@ -1,0 +1,2412 @@
+[
+    {
+        "titulo": "Amir",
+        "tipo": "Tanque",
+        "descricao": "Personagem focada em defesa com Metalization.",
+        "tags": "tank defesa amir",
+        "imagem": "imagem/amir_card.webp",
+        "imagem2": "imagem/EGOSKILL.webp",
+        "egoskill_descricao":"Gain Shield 120% per Metalize. Remove Metalize. At the start of the next turn, gain Metalize 3.​",
+        "cartas": [
+            {
+                "nome": "Rapier",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Rapier.webp",
+                "efeitos": [
+                    {
+                        "valor": "100%",
+                        "atributo": "Dano",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            }, {
+                "nome": "Metal Pierce",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Metal Pierce.webp",
+                "efeitos": [
+                    {
+                        "valor": "90% x2",
+                        "atributo": "Def-Based Damage",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "-1 Metalization",
+                        "atributo": "(Condition)",
+                        "classe_css": "keyword-defesa"
+                    },
+                    {
+                        "valor": "2 Stacks",
+                        "atributo": "Vulnerable",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            },
+            {
+                "nome": "Hovering Metal",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Hovering Metal.webp",
+                "efeitos": [
+                    {
+                        "valor": 3,
+                        "atributo": "Damage Reduction",
+                        "classe_css": "keyword-buff"
+                    },
+                    {
+                        "valor": 2,
+                        "atributo": "Metalization",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Metal Extraction",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Metal Extraction.webp",
+                "efeitos": [
+                    {
+                        "valor": 2,
+                        "atributo": "Metalization",
+                        "classe_css": "keyword-buff"
+                    },
+                    {
+                        "valor": 2,
+                        "atributo": "Resolve (1 Turn)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+           
+            {
+                "nome": "Full Metal Hurricane",
+                "tipo": "Attack",
+                "raridade": "Legendary",
+                "custo": 2,
+                "quantidade": 1,
+                "imagem": "imagem/Full metal Hurricane.webp",
+                "efeitos": [
+                    {
+                        "valor": "200%",
+                        "atributo": "Def-based Dmg (All Enemies)",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "+20%",
+                        "atributo": "Damage (if Metalization)",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            },
+            {
+                "nome": "Iron Skin",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/iron skin.webp",
+                "efeitos": [
+                    {
+                        "valor": "-20%",
+                        "atributo": "Damage Taken (1 Turn)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Beryl",
+        "tipo": "dps,Retain,Scale",
+        "descricao": "Build com retain, scale e burst dmg",
+        "tags": "dano beryl launcher",
+        "imagem": "imagem/beryl.webp",
+        "imagem2": "imagem/beryl-egoskill.webp",
+        "egoskill_descricao":"350% Damage to all enemies",
+        "cartas": [
+            {
+                "nome": "Launcher",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Launcher.webp",
+                "efeitos": [
+                    {
+                        "valor": "112%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            },
+            {
+                "nome": "Charge Launcher",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Charge-Launcher.webp",
+                "efeitos": [
+                    {
+                        "valor": "246%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            },
+            {
+                "nome": "Barrier",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Barrier.webp",
+                "efeitos": [
+                    {
+                        "valor": "112%",
+                        "atributo": "Shield",
+                        "classe_css": "keyword-defesa"
+                    }
+                ]},
+            {
+                "nome": "Opening Found",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Opening-Found.webp",
+                "efeitos": [
+                    {
+                        "valor": "134%",
+                        "atributo": "Damage [Retain]",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "+1 Hit",
+                        "atributo": "Add Hit (If Retained)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Charged Shot",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Charged-Shot.webp",
+                "efeitos": [
+                    {
+                        "valor": "224%",
+                        "atributo": "Damage [Retain]",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "+80%",
+                        "atributo": "Damage (If Retained)",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            },
+            {
+                "nome": "Guilty Pleasure",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Guilty-Pleasure.webp",
+                "efeitos": [
+                    {
+                        "valor": "Draw 3",
+                        "atributo": "Cards [Exhaust]",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            }
+            ,
+            {
+                "nome": "Unlimited Firepower",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Unlimited-Firepower.webp",
+                "efeitos": [
+                    {
+                        "valor": "112%",
+                        "atributo": "Shield",
+                        "classe_css": "keyword-defesa"
+                    },
+                    {
+                        "valor": "+80%",
+                        "atributo": "Damage (Next Attack)",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            }
+            ,
+            {
+                "nome": "Heavy Weapons Specialist",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Heavy-Weapons-Specialist.webp",
+                "efeitos": [
+                    {
+                        "valor": "Create 1",
+                        "atributo": "Opening Found / Charged Shot",
+                        "classe_css": "keyword-buff"
+                    },
+                    {
+                        "valor": "Apply",
+                        "atributo": "Exhaust & -1 Cost (to created card)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "titulo": "Cassius",
+        "tipo": "Suporte",
+        "descricao": "Especialista em comprar cartas (Draw) e cura, tendo uma build com dps com Tressa.",
+        "tags": "suporte draw cura cassius",
+        "imagem": "imagem/cassius_card.webp",
+        "imagem2": "imagem/cassius.webp",
+        "egoskill_descricao":"Create 2 Quest Card(s). For 1 turn, -3 Morale to all enemies.​",
+        "cartas": [
+            {
+                "nome": "Cards",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Cards.webp",
+                "efeitos": [
+                    {
+                        "valor": "100%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "30%",
+                        "atributo": "Chance to Draw 1",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Wild Card",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Wild Card.webp",
+                "efeitos": [
+                    {
+                        "valor": "220%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "30%",
+                        "atributo": "Chance to Draw 1",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Mana Field",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Mana Field.webp",
+                "efeitos": [
+                    {
+                        "valor": "100%",
+                        "atributo": "Heal",
+                        "classe_css": "keyword-defesa"
+                    }
+                ]
+            }
+            ,
+            {
+                "nome": "Devil Dice",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Devil Dice.webp",
+                "efeitos": [
+                    {
+                        "valor": "160%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "Draw 1",
+                        "atributo": "Card",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Shuffle",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shuffle.webp",
+                "efeitos": [
+                    {
+                        "valor": "Discard",
+                        "atributo": "All cards in hand [Exhaust]",
+                        "classe_css": "keyword-buff"
+                    },
+                    {
+                        "valor": "Draw",
+                        "atributo": "For each discarded card",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Pop Eyed Popper",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Pop Eyed Popper.webp",
+                "efeitos": [
+                    {
+                        "valor": "Start 1",
+                        "atributo": "Random Quest (out of 4)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            }
+            ,
+            {
+                "nome": "Dice Trick",
+                "tipo": "Attack",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Dice Trick.webp",
+                "efeitos": [
+                    {
+                        "valor": "240%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "- Cost",
+                        "atributo": "per Completed Quest",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Joker",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Joker.webp",
+                "efeitos": [
+                    {
+                        "valor": "Choose 1",
+                        "atributo": "from Draw/Discard Pile",
+                        "classe_css": "keyword-buff"
+                    },
+                    {
+                        "valor": "Move",
+                        "atributo": "to Hand",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Haru",
+        "tipo": "scale,dps,burst",
+        "descricao": "Scale com anchor , anchor shot e power anchor, tendo build burst caso vc troque o anchor shot para o combo +1hit.",
+        "tags": "scale dps haru anchor",
+        "imagem": "imagem/teste.jpg",
+        "imagem2": "imagem/egoharu.webp",
+        "egoskill_descricao":"350% Damage.+50% Damage by number of beneficial effects owned..​",
+        "cartas": [
+            {
+                "nome": "Anchor",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Anchor.webp",
+                "efeitos": [
+                    {
+                        "valor": "100%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "+10%",
+                        "atributo": "Anchor Shot Damage",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Power Anchor",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Power Anchor.webp",
+                "efeitos": [
+                    {
+                        "valor": "220%",
+                        "atributo": "Damage",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "+10%",
+                        "atributo": "Anchor Shot Damage",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Anchor Drop",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Anchor Drop.webp",
+                "efeitos": [
+                    {
+                        "valor": "100%",
+                        "atributo": "Shield",
+                        "classe_css": "keyword-defesa"
+                    }
+                ]
+            }
+            ,
+            {
+                "nome": "Anchor Shot",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/meubbAnchor-Shot.webp",
+                "efeitos": [
+                    {
+                        "valor": "240%",
+                        "atributo": "Damage [Pulverize]",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "+50%",
+                        "atributo": "Damage per use (Max 5)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Anchor Pointer",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Anchor Pointer.webp",
+                "efeitos": [
+                    {
+                        "valor": "Move to Hand",
+                        "atributo": "Anchor Shot (from Pile/Graveyard)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Power Charge",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Power Charge.webp",
+                "efeitos": [
+                    {
+                        "valor": "180%",
+                        "atributo": "Damage (All Enemies)",
+                        "classe_css": "keyword-dano"
+                    },
+                    {
+                        "valor": "+80%",
+                        "atributo": "Damage (If Single Target)",
+                        "classe_css": "keyword-dano"
+                    }
+                ]
+            }
+            ,
+            {
+                "nome": "Charge Energy",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Charge Energy.webp",
+                "efeitos": [
+                    {
+                        "valor": "+30% Damage",
+                        "atributo": "to Attack Cards [Retain] (1 Turn)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            },
+            {
+                "nome": "Lift Anchor",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Lift Anchor.webp",
+                "efeitos": [
+                    {
+                        "valor": "+1 Cost & +70% Damage",
+                        "atributo": "to Anchor Shot in hand [Retain] (1 Turn)",
+                        "classe_css": "keyword-buff"
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Hugo",
+        "tipo": "dps,Subdps",
+        "descricao": "extra attack.",
+        "tags": "dano hugo assassin hunt",
+        "imagem": "imagem/hugo_card.webp",
+        "imagem2": "imagem/hugo_egoskill.webp",
+        "egoskill_descricao": "Deals 250% Damage to an enemy. Passive: Increases 'Commence the Hunt' damage by 30% (Stacks up to 5 times).",
+        "cartas": [
+            {
+                "nome": "Throw Dagger",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Throw Dagger.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Defense System",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Defense System.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Quick Fix",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Quick-Fix.webp",
+                "efeitos": [
+                    { "valor": "80% x2", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Draw 1", "atributo": "If in 'Commence the Hunt'", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Hunting Instincts",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Hunting-Instincts.webp",
+                "efeitos": [
+                    { "valor": "Gain 1", "atributo": "Hunt Stack when ally uses Skill/Upgrade", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Fixer's Approach",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Fixers-Approach.webp",
+                "efeitos": [
+                    { "valor": "+40%", "atributo": "Extra Attack Damage (Hunt)", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Dingo Howling",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Dingo-Howling.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "+2", "atributo": "Commence the Hunt Stacks", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Fan of Daggers",
+                "tipo": "Attack",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Fan-of-Daggers.webp",
+                "efeitos": [
+                    { "valor": "60% x3", "atributo": "Damage (Random Targets)", "classe_css": "keyword-dano" },
+                    { "valor": "Gain 1", "atributo": "Hunt Stack per hit", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Luke",
+        "tipo": "subdps",
+        "descricao": "Focado em Crítico e geração de Balas (0-cost cards).",
+        "tags": "dano luke hunter bullet crit",
+        "imagem": "imagem/luke_card.webp",
+        "imagem2": "imagem/luke_egoskill.webp",
+        "egoskill_descricao": "Lethal Design: +300% Damage. +15% Damage for each card in hand.",
+        "cartas": [
+            {
+                "nome": "Single Shot",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Single-Shot.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Shadow Concealment",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shadow-Concealment.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Rapid Fire",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Rapid-Fire.webp",
+                "efeitos": [
+                    { "valor": "50% x2", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Create 1", "atributo": "Bullet per Crit Hit", "classe_css": "keyword-buff" },
+                    { "valor": "+50%", "atributo": "Critical Chance", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Stealth Reload",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Stealth-Reload.webp",
+                "efeitos": [
+                    { "valor": "Create 2", "atributo": "Handgun Bullets", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Seize the Opportunity",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Seize-the-Opportunity.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "+120%", "atributo": "Damage (Next Bullet Card)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Dance of the Demon",
+                "tipo": "Attack",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Dance-of-the-Demon.webp",
+                "efeitos": [
+                    { "valor": "50%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "+1 Hit", "atributo": "per Bullet used this turn", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Finisher Round",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Finisher-Round.webp",
+                "efeitos": [
+                    { "valor": "200%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Condition:", "atributo": "Unlock after using 5 Bullets", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Kayron",
+        "tipo": "dps,burst,scale,exhaust",
+        "descricao": "Gera cartas 'Futility' para exhausta-la e causar dano massivo tanto sigle quanto multi target.",
+        "tags": "dps,burst,scale,",
+        "imagem": "imagem/kayron_card.webp",
+        "imagem2": "imagem/kayron_egoskill.webp",
+        "egoskill_descricao": "Exhausts all 'Futility' cards in hand. Deals 300% AoE Damage + Damage based on exhausted cards.",
+        "cartas": [
+            {
+                "nome": "Elimination",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Elimination.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Sphere",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Sphere.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Echo of Futility",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Echo-of-Futility.webp",
+                "efeitos": [
+                    { "valor": "Create 1", "atributo": "Futility Card (in hand)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Brand of Annihilation",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 3,
+                "imagem": "imagem/Brand-of-Annihilation.webp",
+                "efeitos": [
+                    { "valor": "360%", "atributo": "AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "-1 Cost", "atributo": "per Exhausted Card (This turn)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Black Hole",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Black-Hole.webp",
+                "efeitos": [
+                    { "valor": "240%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "+40%", "atributo": "Damage per Exhausted Card", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Oath of Vanity",
+                "tipo": "Upgrade",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Oath-of-Vanity.webp",
+                "efeitos": [
+                    { "valor": "Transform", "atributo": "All 'Futility' into 80% Dmg/Heal Cards", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Echoes of True Abyss",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Echoes-of-True-Abyss.webp",
+                "efeitos": [
+                    { "valor": "240%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Create 3", "atributo": "Futility Cards", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Khalipe",
+        "tipo": "Tanque",
+        "descricao": "tank,bate com defesa.",
+        "tags": "tank defesa khalipe bird whip",
+        "imagem": "imagem/khalipe_card.webp",
+        "imagem2": "imagem/khalipe_egoskill.webp",
+        "egoskill_descricao": "300% Defense-based Damage to all enemies. Create 1 Vulture Ejection.",
+        "cartas": [
+            {
+                "nome": "Lashing",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Lashing.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Def-based Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Upward Slash",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Upward-Slash.webp",
+                "efeitos": [
+                    { "valor": "180%", "atributo": "Def-based Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Tyr's Vow",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Tyrs-Vow.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            }
+            ,
+            {
+                "nome": "Greatsword Aquila (Epiphany)",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Greatsword-Aquila-Plus.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Def-based AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "If Vulture in hand:", "atributo": "+1 Cost & +100% Dmg", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Overpower (Epiphany)",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Overpower-Plus.webp",
+                "efeitos": [
+                    { "valor": "200%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "1 Tenacity Dmg", "atributo": "to all enemies", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Vulture Ejection",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 3,
+                "imagem": "imagem/Vulture-Ejection.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Def-based AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "80% Shield", "atributo": "& 1 Silver Veil", "classe_css": "keyword-defesa" }
+                ]
+            }
+            ,
+            {
+                "nome": "Rally",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Rally.webp",
+                "efeitos": [
+                    { "valor": "120%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "Draw 1", "atributo": "Highest-cost card", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Absolute Protection",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": "X", 
+                "imagem": "imagem/Absolute-Protection-Mystic.webp",
+                "efeitos": [
+                    { "valor": "+X100%", "atributo": "Shield [Finale]", "classe_css": "keyword-defesa" },
+                    { "valor": "Grant Retain", "atributo": "to all cards in hand (1 turn)", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Lucas",
+        "tipo": "Debuffer",
+        "descricao": "Especialista em armas pesadas, queimaduras e atordoamento.",
+        "tags": "debuffer lucas gun burn stun",
+        "imagem": "imagem/lucas_card.webp",
+        "imagem2": "imagem/lucas_egoskill.webp",
+        "egoskill_descricao": "Deals 250% AoE Damage. Applies Burn and Vulnerable to all enemies.",
+        "cartas": [
+            {
+                "nome": "Machine Gun",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Machine-Gun.webp",
+                "efeitos": [
+                    { "valor": "45% x3", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "10%", "atributo": "Chance to apply Burn", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Shield Incendiary",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shield-Incendiary.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "Apply", "atributo": "Burn to attacker (1 Turn)", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Extended Mag",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Extended-Mag.webp",
+                "efeitos": [
+                    { "valor": "Create 2", "atributo": "Random Bullet Cards", "classe_css": "keyword-buff" },
+                    { "valor": "+20%", "atributo": "Damage to next Attack", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "SSS",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/SSS.webp",
+                "efeitos": [
+                    { "valor": "280%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "If Burned:", "atributo": "+50% Critical Chance", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Flamethrower",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Flamethrower.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Apply", "atributo": "2 Stacks of Burn", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Flashbang",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Flashbang.webp",
+                "efeitos": [
+                    { "valor": "Apply", "atributo": "Stun & Vulnerable (1 Turn)", "classe_css": "keyword-buff" },
+                    { "valor": "Draw 1", "atributo": "Card", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "RPG",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 3,
+                "imagem": "imagem/RPG.webp",
+                "efeitos": [
+                    { "valor": "350%", "atributo": "AoE Massive Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Passive:", "atributo": "Unused Bullets deal 40 Dmg to random enemy", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Magna",
+        "tipo": "Tanque/Counter",
+        "descricao": "Tanque focada em Defesa, Escudos ,Que bate com a defesa e Contra-Ataques (Counter).",
+        "tags": "tank defesa magna counter ice",
+        "imagem": "imagem/magna_card.webp",
+        "imagem2": "imagem/magna_egoskill.webp",
+        "egoskill_descricao": "300% Defense-based Damage. +20% Damage per Counterattack.",
+        "cartas": [
+            {
+                "nome": "Frozen Fist",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Frozen-Fist.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Def-based Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Frost Shield",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Frost-Shield.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            }, {
+                "nome": "Ice fragment",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/ice.webp",
+                "efeitos": [
+                    { "valor": "2", "atributo": "Crystallization", "classe_css": "keyword-buff" },
+                    { "valor": "1", "atributo": "At The Start of the turn Counter Stack", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Glacial Iron Fist",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Glacial-Iron-Fist.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Def-based Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Gain Shield", "atributo": "equal to 50% of Dmg dealt", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Storm of Bitter",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Storm-of-Bitter.webp",
+                "efeitos": [
+                    { "valor": "Gain Counter", "atributo": "(Counterattacks when hit)", "classe_css": "keyword-buff" },
+                    { "valor": "150%", "atributo": "Shield", "classe_css": "keyword-buff" }
+                ]
+            },
+           
+            {
+                "nome": "Ice Wall",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Ice Wall.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-buff" },
+                    { "valor": "2", "atributo": "counterattack for 1 turn, counterattack applies to all enemies", "classe_css": "keyword-buff" }
+                ]
+            },
+             {
+                "nome": "Frost Charge",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Frost-charge.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                    ,{ "valor": "2", "atributo": "Vulnerable to all enemies", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Maribell",
+        "tipo": "Tanque",
+        "descricao": "Especialista em escudos massivos e proteção.",
+        "tags": "tank defesa maribell shield shelter",
+        "imagem": "imagem/maribell_card.webp",
+        "imagem2": "imagem/maribell_egoskill.webp",
+        "egoskill_descricao": "Unbreakable: 350% Shield based on DEF. Protects allies.",
+        "cartas": [
+            {
+                "nome": "Shelter Kick",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shelter-Kick.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Shelter Defense",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shelter-Defense.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Shelter Hold",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shelter-Hold.webp",
+                "efeitos": [
+                    { "valor": "220%", "atributo": "Shield (using 30% DEF stat)", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Resolute Blitz",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Resolute-Blitz.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Def-based Dmg [Pulverize]", "classe_css": "keyword-dano" },
+                    { "valor": "1", "atributo": "Counterattack", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Maribell Shelter MK. II",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Maribell-Shelter-MK-II.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Def-based Dmg [Pulverize]", "classe_css": "keyword-dano" },
+                    { "valor": "Fixed Shield", "atributo": "equal to Damage Dealt", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Wolves' Dome",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Wolves-Dome.webp",
+                "efeitos": [
+                    { "valor": "Gain 2", "atributo": "Counterattack", "classe_css": "keyword-buff" },
+                    { "valor": "Start Turn:", "atributo": "Gain 1 Counterattack", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Oh... I see.",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Oh-I-see.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield & 1 Counterattack", "classe_css": "keyword-defesa" },
+                    { "valor": "Apply", "atributo": "1 Weaken to all enemies", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Shelter Strike",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shelter-Strike.webp",
+                "efeitos": [
+                    { "valor": "Fixed Dmg", "atributo": "equal to Shield owned [Pulverize]", "classe_css": "keyword-dano" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Mei Lin",
+        "tipo": "Dano",
+        "descricao": "Especialista em ataques básicos, fogo (Ember) e auto-buffs.",
+        "tags": "dps fire dragon mei-lin strike",
+        "imagem": "imagem/mei_lin_card.webp",
+        "imagem2": "imagem/mei_lin_egoskill.webp",
+        "egoskill_descricao": "Heavenly Flame Dragon: +1 hit to the next 4 Basic Attack cards.",
+        "cartas": [
+            {
+                "nome": "Strike",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Strike.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Flame Dragon Guardian",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Flame-Dragon-Guardian.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Flame Dragon's Jewel",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Flame-Dragons-Jewel.webp",
+                "efeitos": [
+                    { "valor": "+20%", "atributo": "Attack Card Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Apply", "atributo": "1 Passion Weakness on hit", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Rising Dragon Spire",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Rising-Dragon-Spire.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage & 2 Embers", "classe_css": "keyword-dano" },
+                    { "valor": "Combo:", "atributo": "+1 Hit", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Unity of Attack and Defense",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Unity-of-Attack.webp",
+                "efeitos": [
+                    { "valor": "Draw 2", "atributo": "Basic Cards", "classe_css": "keyword-buff" },
+                    { "valor": "-1 Cost", "atributo": "to drawn cards (1 Turn)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Spirit of the Aromata",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Spirit-of-the-Aromata.webp",
+                "efeitos": [
+                    { "valor": "[Retain]", "atributo": "when using a card", "classe_css": "keyword-buff" },
+                    { "valor": "+20%", "atributo": "Damage stacking when using ANY card", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Flame Dragon's Sovereignty",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Flame-Dragons-Sovereignty.webp",
+                "efeitos": [
+                    { "valor": "300%", "atributo": "Damage [Weakness Attack]", "classe_css": "keyword-dano" },
+                    { "valor": "Destroy:", "atributo": "Retain Embers on break", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Mika",
+        "tipo": "Suporte",
+        "descricao": "Healer focada em escudos de água e remoção de debuffs.",
+        "tags": "suporte healer mika water cleanse",
+        "imagem": "imagem/mika_card.webp",
+        "imagem2": "imagem/mika_egoskill.webp",
+        "egoskill_descricao": "Heals all allies for 250% Attack. Removes all Debuffs.",
+        "cartas": [
+            {
+                "nome": "Water Arrow",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Water-Arrow.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Water Barrier",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Water-Barrier.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Source of Water",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Source-of-Water.webp",
+                "efeitos": [
+                    { "valor": "Create 2", "atributo": "Water Barrier cards (in hand)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Blessing of Waves",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Blessing-of-Waves.webp",
+                "efeitos": [
+                    { "valor": "Heal", "atributo": "All Allies (120% Atk)", "classe_css": "keyword-defesa" },
+                    { "valor": "Remove", "atributo": "1 Debuff from all allies", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Tactical Decision",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Tactical-Decision.webp",
+                "efeitos": [
+                    { "valor": "Draw 2", "atributo": "Cards (Prioritize Skills)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Whirlpool",
+                "tipo": "Attack",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Whirlpool.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Apply", "atributo": "Slow (Speed -30%) to enemies", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Deluge",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 3,
+                "imagem": "imagem/Deluge.webp",
+                "efeitos": [
+                    { "valor": "Heal 200%", "atributo": "to All Allies", "classe_css": "keyword-defesa" },
+                    { "valor": "Grant", "atributo": "50% Shield to All Allies", "classe_css": "keyword-defesa" }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Nia",
+        "tipo": "Suporte",
+        "descricao": "Suporte musical que cura aliados e debuffa inimigos com som.",
+        "tags": "suporte buffer nia music sound heal",
+        "imagem": "imagem/nia_card.webp",
+        "imagem2": "imagem/nia_egoskill.webp",
+        "egoskill_descricao": "Sound Wave: Heals all allies and increases Attack for 2 turns.",
+        "cartas": [
+            {
+                "nome": "Stroke",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Stroke.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Amp Therapy",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Amp-Therapy.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Heal (Single Ally)", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "G Chord",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/G-Chord.webp",
+                "efeitos": [
+                    { "valor": "160%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Apply", "atributo": "Vulnerable (1 Turn)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Mute Accent",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Mute-Accent.webp",
+                "efeitos": [
+                    { "valor": "Apply", "atributo": "Silence (Cannot use Skills)", "classe_css": "keyword-dano" },
+                    { "valor": "Remove", "atributo": "1 Buff from enemy", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Soul Rip",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Soul-Rip.webp",
+                "efeitos": [
+                    { "valor": "120%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Restore", "atributo": "1 Mana/Energy", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Adagio",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Adagio.webp",
+                "efeitos": [
+                    { "valor": "Buff", "atributo": "+30% Attack to All Allies (2 Turns)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Nia's Curiosity",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Nias-Curiosity.webp",
+                "efeitos": [
+                    { "valor": "Draw 3", "atributo": "Cards", "classe_css": "keyword-buff" },
+                    { "valor": "Reduce Cost", "atributo": "of drawn cards by 1", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Orlea",
+        "tipo": "Suporte",
+        "descricao": "Invocadora que cura aliados e fortalece suas criaturas de luz.",
+        "tags": "suporte summoner orlea light heal",
+        "imagem": "imagem/orlea_card.webp",
+        "imagem2": "imagem/orlea_egoskill.webp",
+        "egoskill_descricao": "Divine Summons: Summons a Holy Guardian and Heals all allies.",
+        "cartas": [
+            {
+                "nome": "Attack, My Minions!",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Attack-My-Minions.webp",
+                "efeitos": [
+                    { "valor": "Command:", "atributo": "Minions deal 100% Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Celestial Healing",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Celestial-Healing.webp",
+                "efeitos": [
+                    { "valor": "120%", "atributo": "Heal (Single Ally)", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Sacred Censer",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Sacred-Censer.webp",
+                "efeitos": [
+                    { "valor": "Remove", "atributo": "All Debuffs from Ally", "classe_css": "keyword-buff" },
+                    { "valor": "Heal", "atributo": "80% Attack", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Growth Acceleration",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Growth-Acceleration.webp",
+                "efeitos": [
+                    { "valor": "Buff", "atributo": "+30% Minion Stats", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Annoying",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Annoying.webp",
+                "efeitos": [
+                    { "valor": "Taunt", "atributo": "Enemies attack Minion", "classe_css": "keyword-defesa" },
+                    { "valor": "Apply", "atributo": "Vulnerable to attackers", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Growing Creature",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Growing-Creature.webp",
+                "efeitos": [
+                    { "valor": "Evolve", "atributo": "Minion to Elder Stage", "classe_css": "keyword-buff" },
+                    { "valor": "Full Heal", "atributo": "to Minion", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Will of Light",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 3,
+                "imagem": "imagem/Will-of-Light.webp",
+                "efeitos": [
+                    { "valor": "Invincible", "atributo": "to All Allies (1 Turn)", "classe_css": "keyword-defesa" },
+                    { "valor": "Heal", "atributo": "200% to All Allies", "classe_css": "keyword-defesa" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Owen",
+        "tipo": "Dano",
+        "descricao": "espadachim ágil que usa o vento para causar dano e se proteger.",
+        "tags": "dano owen wind aoe",
+        "imagem": "imagem/owen_card.webp",
+        "imagem2": "imagem/owen_egoskill.webp",
+        "egoskill_descricao": "Storm Breaker: Deals massive Wind Damage to all enemies and grants Evasion.",
+        "cartas": [
+            {
+                "nome": "Downward Cut",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Downward-Cut.webp",
+                "efeitos": [
+                    { "valor": "106%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Weapon Block",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Weapon-Block.webp",
+                "efeitos": [
+                    { "valor": "106%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Wind Charge",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Wind-Charge.webp",
+                "efeitos": [
+                    { "valor": "Add 1 Hit", "atributo": "to the next Attack Card used", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Wind Slash",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Wind-Slash.webp",
+                "efeitos": [
+                    { "valor": "233%", "atributo": "Damage to all enemies", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Break Armor",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Break-Armor.webp",
+                "efeitos": [
+                    { "valor": "106%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "2", "atributo": "Vulnerable", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Wind Riding",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Wind-Riding.webp",
+                "efeitos": [
+                    { "valor": "159%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "Move", "atributo": "Wind Charge from Discard to Hand", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Gale Strike",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Gale-Strike.webp",
+                "efeitos": [
+                    { "valor": "318%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "138%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Rei",
+        "tipo": "Suporte/Dano",
+        "descricao": "Especialista em Void. Consome cartas e buffa aliados.",
+        "tags": "suporte void rei dark blade", 
+        "imagem": "imagem/rei_card.webp",
+        "imagem2": "imagem/rei_egoskill.webp",
+        "egoskill_descricao": "Deals 250% Void Damage. If target is defeated, gain Extra Turn.",
+        "cartas": [
+            {
+                "nome": "Dark Blade",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Dark-Blade.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Material Regeneration",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Material-Regeneration.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Heal", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Strike of Darkness",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Strike-of-Darkness.webp",
+                "efeitos": [
+                    { "valor": "140%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Apply", "atributo": "1 Void Weakness", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Resonating Darkness",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Resonating-Darkness.webp",
+                "efeitos": [
+                    { "valor": "+20%", "atributo": "Void Damage to all Allies", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Snack Time",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Snack-Time.webp",
+                "efeitos": [
+                    { "valor": "Exhaust", "atributo": "1 Card from hand", "classe_css": "keyword-buff" },
+                    { "valor": "Draw 2", "atributo": "Cards", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Dark Condensation",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Dark-Condensation.webp",
+                "efeitos": [
+                    { "valor": "Create 1", "atributo": "Dark Blade (0 Cost, Retain)", "classe_css": "keyword-buff" },
+                    { "valor": "+50%", "atributo": "Damage to created card", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Predator Blade",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Predator-Blade.webp",
+                "efeitos": [
+                    { "valor": "250%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Heal", "atributo": "50% of Damage Dealt", "classe_css": "keyword-defesa" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Renoa",
+        "tipo": "Dano",
+        "descricao": "Gera 'Dirge Bullets' e as descarta para causar dano massivo.",
+        "tags": "dano renoa void dirge bullet discard",
+        "imagem": "imagem/renoa_card.webp",
+        "imagem2": "imagem/renoa_egoskill.webp",
+        "egoskill_descricao": "Black Thorn: Move all Dirge Bullets from Draw/Graveyard to hand. Deal 300% Damage.",
+        "cartas": [
+            {
+                "nome": "Annihilation Shot",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Annihilation-Shot.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Black Veil",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Black-Veil.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Echo of Sorrow",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Echo-of-Sorrow.webp",
+                "efeitos": [
+                    { "valor": "140%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Create 1", "atributo": "Dirge Bullet (in hand)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Instant Judgment",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Instant-Judgment.webp",
+                "efeitos": [
+                    { "valor": "180%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "+100% Dmg", "atributo": "if you Discard 1 Dirge Bullet", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Ballad of Pitch Black",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Ballad-of-Pitch-Black.webp",
+                "efeitos": [
+                    { "valor": "50% x3", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "+20% Dmg", "atributo": "per Dirge Bullet in hand", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Flower of Devoured Fate",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Flower-of-Devoured-Fate.webp",
+                "efeitos": [
+                    { "valor": "Discard 2", "atributo": "cards from hand", "classe_css": "keyword-defesa" },
+                    { "valor": "Create 2", "atributo": "Dirge Bullets", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Last-Ditch Assault",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Last-Ditch-Assault.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Damage [Retain]", "classe_css": "keyword-dano" },
+                    { "valor": "Discard All", "atributo": "Dirge Bullets (+50% Dmg per bullet)", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Rin",
+        "tipo": "Dano",
+        "descricao": "Espadachim focada em dano de alvo único e postura Dark Mist.",
+        "tags": "dano rin dark mist stance single target",
+        "imagem": "imagem/rin_card.webp",
+        "imagem2": "imagem/rin_egoskill.webp",
+        "egoskill_descricao": "Dark Mist Secret Ark: Slash: Deals 400% Damage and applies 2 Vulnerable.",
+        "cartas": [
+            {
+                "nome": "Dark Mist Sword: First Form",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Dark-Mist-Sword-First-Form.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Effect:", "atributo": "Gain Stance if Potential Active", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Dark Mist Sword: Third Form",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Dark-Mist-Sword-Third-Form.webp",
+                "efeitos": [
+                    { "valor": "220%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Effect:", "atributo": "Enters Dark Mist Stance", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Protection",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Protection.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Drawing Slash",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Drawing-Slash.webp",
+                "efeitos": [
+                    { "valor": "120%", "atributo": "Damage [Haste]", "classe_css": "keyword-dano" },
+                    { "valor": "Effect:", "atributo": "Enters Dark Mist Stance", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Dark Mist Secret Art: Destruction",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Dark-Mist-Secret-Art-Destruction.webp",
+                "efeitos": [
+                    { "valor": "Draw", "atributo": "Cards", "classe_css": "keyword-buff" },
+                    { "valor": "Effect:", "atributo": "Enters Dark Mist Stance", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Dark Mist Secret Art: Annihilation",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Dark-Mist-Secret-Art-Annihilation.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Damage [Haste]", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Dark Mist Inner Art",
+                "tipo": "Upgrade",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Dark-Mist-Inner-Art.webp",
+                "efeitos": [
+                    { "valor": "Buff:", "atributo": "Maintain Dark Mist Stance", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Dark Mist Secret Art: Black Dance",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Dark-Mist-Secret-Art-Black-Dance.webp",
+                "efeitos": [
+                    { "valor": "80%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Extra Hits:", "atributo": "Based on Skill cards in hand", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Selena",
+        "tipo": "Dano",
+        "descricao": "Atiradora de elite que marca inimigos para causar dano extra.",
+        "tags": "dano ranger selena mark sniper passion",
+        "imagem": "imagem/selena_card.webp",
+        "imagem2": "imagem/selena_egoskill.webp",
+        "egoskill_descricao": "Final Shot: Deals 300% Damage and applies 3 Marks.",
+        "cartas": [
+            {
+                "nome": "Engagement Fire",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Engagement-Fire.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Emergency Shielding",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Emergency-Shielding.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "High-Power Scope",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/High-Power-Scope.webp",
+                "efeitos": [
+                    { "valor": "Apply 2", "atributo": "Mark", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Target Spotted",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Target-Spotted.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Response:", "atributo": "Apply 1 Mark when drawn", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Drone Bombing",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Drone-Bombing.webp",
+                "efeitos": [
+                    { "valor": "120%", "atributo": "AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Apply 1", "atributo": "Passion Weakness", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Tactical Maneuver",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Tactical-Maneuver.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "Deal 2", "atributo": "Tenacity Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Sniper's Domain",
+                "tipo": "Upgrade",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Snipers-Domain.webp",
+                "efeitos": [
+                    { "valor": "+40%", "atributo": "Mark Damage", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Tressa",
+        "tipo": "Dano",
+        "descricao": "Especialista em Agony (Dano por tempo) e criação de Shadow Daggers.",
+        "tags": "dano tressa agony shadow dagger exhaust void",
+        "imagem": "imagem/tressa_card.webp",
+        "imagem2": "imagem/tressa_egoskill.webp",
+        "egoskill_descricao": "Death Lotus: Deals Damage based on the number of Agony stacks on the target.",
+        "cartas": [
+            {
+                "nome": "Dagger Throw",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Dagger-Throw.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Touch of Darkness",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Touch-of-Darkness.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Heal (Self)", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Unsheathe Dagger",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Unsheathe-Dagger.webp",
+                "efeitos": [
+                    { "valor": "Create 2", "atributo": "Shadow Daggers (0 Cost)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Curse",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Curse.webp",
+                "efeitos": [
+                    { "valor": "Apply 1 Agony", "atributo": "when using Attack Cards (1 Turn)", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Shadow Reload",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Shadow-Reload.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Heal", "classe_css": "keyword-defesa" },
+                    { "valor": "Create 1", "atributo": "Advanced Shadow Dagger", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Vital Attack",
+                "tipo": "Attack",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Vital-Attack.webp",
+                "efeitos": [
+                    { "valor": "80% x3", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "+50% Dmg", "atributo": "if target has Agony", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Cursed Gouge",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Cursed-Gouge.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Apply", "atributo": "3 Stacks of Agony", "classe_css": "keyword-dano" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Veronica",
+        "tipo": "Dano/Suporte",
+        "descricao": "Especialista em Balistas. Gera cartas que atacam automaticamente no fim do turno.",
+        "tags": "dano veronica ballista auto-attack",
+        "imagem": "imagem/veronica_card.webp",
+        "imagem2": "imagem/veronica_egoskill.webp",
+        "egoskill_descricao": "Hunting Time: Deals massive damage and creates 3 Ballista Cards in hand.",
+        "cartas": [
+            {
+                "nome": "Rapid Fire",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 2,
+                "custo": 1,
+                "imagem": "imagem/Veronica-Rapid-Fire.webp",
+                "efeitos": [
+                    { "valor": "50% x2", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "20%", "atributo": "Chance to create Ballista", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Illusion of Golden",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Illusion-of-Golden.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" },
+                    { "valor": "Draw 1", "atributo": "Card", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Firing Preparation",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Firing-Preparation.webp",
+                "efeitos": [
+                    { "valor": "Create 1", "atributo": "Ballista (in hand)", "classe_css": "keyword-buff" },
+                    { "valor": "Start Turn:", "atributo": "Create 1 Ballista (Passive)", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Repose",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Repose.webp",
+                "efeitos": [
+                    { "valor": "Draw 2", "atributo": "Cards", "classe_css": "keyword-buff" },
+                    { "valor": "Heal", "atributo": "10% HP", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Pendant of Resolution",
+                "tipo": "Upgrade",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Pendant-of-Resolution.webp",
+                "efeitos": [
+                    { "valor": "+20%", "atributo": "Ballista Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Max Stacks:", "atributo": "+1 Reload Stack limit", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Sir Kowalski",
+                "tipo": "Skill",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Sir-Kowalski.webp",
+                "efeitos": [
+                    { "valor": "Buff:", "atributo": "+150% Damage to next Ballista", "classe_css": "keyword-buff" },
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Bombardment Prep",
+                "tipo": "Skill",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Bombardment-Prep.webp",
+                "efeitos": [
+                    { "valor": "Create 5", "atributo": "Ballista Cards (Fill Hand)", "classe_css": "keyword-buff" },
+                    { "valor": "Discount", "atributo": "Ballistas cost 0 this turn", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "titulo": "Yuki",
+        "tipo": "Dano",
+        "descricao": "Especialista em AoE e mecânica de Inspiration (efeitos ao comprar cartas).",
+        "tags": "dano yuki aoe inspiration draw",
+        "imagem": "imagem/yuki_card.webp",
+        "imagem2": "imagem/yuki_egoskill.webp",
+        "egoskill_descricao": "300% AoE Damage. Moves all Attack cards in hand to top of deck (+50% Dmg each).",
+        "cartas": [
+            {
+                "nome": "Longsword Slash",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Longsword-Slash.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Damage", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Rapid Slash",
+                "tipo": "Attack",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Rapid-Slash.webp",
+                "efeitos": [
+                    { "valor": "220%", "atributo": "Damage", "classe_css": "keyword-dano" },
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Flowing Parry",
+                "tipo": "Skill",
+                "raridade": "Common",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Flowing-Parry.webp",
+                "efeitos": [
+                    { "valor": "100%", "atributo": "Shield", "classe_css": "keyword-defesa" }
+                ]
+            },
+            {
+                "nome": "Prepare to Subdue",
+                "tipo": "Skill",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 0,
+                "imagem": "imagem/Prepare-to-Subdue.webp",
+                "efeitos": [
+                    { "valor": "Draw 1", "atributo": "Attack Card (+20% Dmg)", "classe_css": "keyword-buff" },
+                    { "valor": "Inspiration:", "atributo": "Draw 1 extra Attack Card", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Flash Slash",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 2,
+                "imagem": "imagem/Flash-Slash.webp",
+                "efeitos": [
+                    { "valor": "180%", "atributo": "AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Inspiration:", "atributo": "Cost -1", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Trickery Strike",
+                "tipo": "Attack",
+                "raridade": "Unique",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Trickery-Strike.webp",
+                "efeitos": [
+                    { "valor": "150%", "atributo": "Damage [Retain]", "classe_css": "keyword-dano" },
+                    { "valor": "Activate", "atributo": "Inspiration for 1 card in hand", "classe_css": "keyword-buff" }
+                ]
+            },
+            {
+                "nome": "Freezing Blade",
+                "tipo": "Upgrade",
+                "raridade": "Legendary",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Freezing-Blade.webp",
+                "efeitos": [
+                    { "valor": "Passive:", "atributo": "Deal 60% AoE Dmg when using Inspired card", "classe_css": "keyword-dano" }
+                ]
+            },
+            {
+                "nome": "Iceberg Cleave",
+                "tipo": "Attack",
+                "raridade": "Mystic",
+                "quantidade": 1,
+                "custo": 1,
+                "imagem": "imagem/Iceberg-Cleave.webp",
+                "efeitos": [
+                    { "valor": "180%", "atributo": "AoE Damage", "classe_css": "keyword-dano" },
+                    { "valor": "Inspiration:", "atributo": "+1 Hit (-20% Dmg)", "classe_css": "keyword-buff" }
+                ]
+            }
+        ]
+    }
+]

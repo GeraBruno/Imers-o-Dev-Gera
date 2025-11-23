@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CZN Database</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">CZN <span style="color: var(--primary);">DB</span></div>
+        <div class="nav-links">
+            <button class="nav-btn active" onclick="mostrarAba('personagens')">Personagens</button>
+            <button class="nav-btn" onclick="mostrarAba('epiphany')">Epiphany (Breve)</button>
+            <a href="https://chaoszeronightmare.onstove.com/en" target="_blank" class="btn-download">BAIXAR JOGO</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>CHAOS ZERO NIGHTMARE</h1>
+        <p class="subtitle">Card Database & Builder</p>
+        
+        <div class="search-container">
+            <input type="text" id="campo-pesquisa" placeholder="Busque por Nome, Carta ou Efeito..." onkeyup="pesquisar()">
+        </div>
+    </header>
+
+    <div class="team-builder-bar">
+        <div class="team-slots">
+            <div class="team-slot" id="slot-0" onclick="removerDoTime(0)"><span>+</span></div>
+            <div class="team-slot" id="slot-1" onclick="removerDoTime(1)"><span>+</span></div>
+            <div class="team-slot" id="slot-2" onclick="removerDoTime(2)"><span>+</span></div>
+        </div>
+        <div class="team-info">
+            <span id="contador-time">0/3 Selecionados</span>
+            <button id="btn-ver-deck" class="btn-action" onclick="verDeckFinal()" disabled>VER DECK</button>
+            <button class="btn-reset" onclick="limparTime()">Limpar</button>
+        </div>
+    </div>
+
+    <main>
+        <div id="aba-personagens">
+            <div id="galeria-herois" class="hero-grid"></div>
+
+            <div id="deck-view-container" style="display: none;"></div> 
+
+            <section id="resultados-pesquisa" class="resultados-pesquisa">
+                </section>
+        </div>
+
+        <div id="aba-epiphany" style="display: none; text-align: center; padding: 50px;">
+            <h2 style="color: #333;">EM BREVE</h2>
+            <p style="color: #666;">A lista de cartas Epiphany estará disponível na próxima atualização.</p>
+        </div>
+    </main>
+
+    <div id="overlay-resumo" class="overlay-container" style="display: none;">
+        <div class="resumo-content">
+            <div class="resumo-header">
+                <h2>RESUMO DO TIME</h2>
+                <button onclick="fecharResumo()" class="btn-close">X</button>
+            </div>
+            <div id="grid-resumo-final" class="resumo-grid">
+                </div>
+            <p class="resumo-footer">CZN Database Builder</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

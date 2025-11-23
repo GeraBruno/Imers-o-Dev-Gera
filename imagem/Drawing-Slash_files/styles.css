@@ -1,0 +1,65 @@
+body {}
+
+/*970px is the min width that screen size must be for backgrounds to show*/
+@media only screen and (min-width: 970px) {
+	/*FLEX SKINS START*/
+	body.flex-skin-active,
+	body.flex-skin-docked {
+		/*Make body transparent*/
+		background-color: rgba(0, 0, 0, 0) !important;
+	}
+
+	/*Set content width to 1100px*/
+	body.flex-skin-active #___gatsby,
+	body.flex-skin-docked #___gatsby {
+		width: 1100px;
+		margin: auto !important;
+		background-color: #23242a;
+	}
+
+/* Ensure Left Manu does not get overlapped by Flex Unit */
+	body.flex-skin-active .left-menu {
+		top: 350px !important;
+	}
+	body.flex-skin-docked .left-menu {
+		top: 100px !important;
+	}
+
+	/*Make sure nav max height is 150px*/
+	body.flex-skin-active .navbar,
+	body.flex-skin-docked .navbar,
+	body.flex-skin-active .top-nav,
+	body.flex-skin-docked .top-nav {
+		position: sticky !important;
+		top: 100px !important;
+	}
+
+	body.flex-skin-active .landing-page,
+	body.flex-skin-docked .landing-page {
+		padding-top: 0 !important;
+	}
+
+	#pw-oop-flex {
+		z-index: 1000 !important;
+	}
+}
+
+/*Breakpoint for smaller breakpoints with different nav*/
+@media only screen and (max-width: 969px) {
+}
+/*Example Breakpoint for mobile breakpoint (may fall into the above)*/
+@media only screen and (max-width: 600px) {
+	body.flex-skin-active .navbar,
+	body.flex-skin-docked .navbar,
+	body.flex-skin-active .top-nav,
+	body.flex-skin-docked .top-nav {
+		position: sticky !important;
+		top: 70px !important;
+	}
+
+	body.flex-skin-active .landing-page,
+	body.flex-skin-docked .landing-page {
+		padding-top: 0 !important;
+	}
+}
+/*FLEX SKINS END*/
