@@ -1,6 +1,6 @@
 # ⚔️ CZN Database & Team Builder (v1.0)
 
-Este projeto foi desenvolvido como parte da [Nome da Imersão/Concurso] e serve como um **Database Interativo** para o jogo Chaos Zero Nightmare (CZN). O foco é oferecer aos jogadores uma ferramenta poderosa para visualização de cartas e, principalmente, a montagem e compartilhamento de decks otimizados.
+Este projeto foi desenvolvido como parte da Imersão e serve como um **Database Interativo** para o jogo Chaos Zero Nightmare (CZN). O foco é oferecer aos jogadores uma ferramenta poderosa para visualização de cartas e, principalmente, a montagem e compartilhamento de decks otimizados.
 
 ---
 
@@ -45,9 +45,3 @@ O recurso **"GERAR RESUMO (PRINT)"** cria uma visualização compacta, em coluna
     ```
 2.  Abra o arquivo `index.html` em seu navegador.
 3.  O banco de dados (`data.json`) será carregado automaticamente no início.
-
----
-
-### Contato / Concurso
-
-**[Deixe o nome do seu time/seu nome e o link do concurso aqui]**
